@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body{
+    background: url("https://www.gavrikovo-hotel.ru/images/cms/data/dalnii_vostok/1622259170_9-oir_mobi-p-gori-dalnego-vostoka-priroda-krasivo-foto-9.jpg");
+    background-repeat: no-repeat; 
+    font-family: 'Noto Sans', sans-serif;
+    background-color: rgb(31, 31, 31);
+}
+.cardsWrapper{
+    display: grid;
+    grid-template-columns: 25em 25em ;
+    gap: 3em;
+
+}
+.card{
+    background-color: #fff;
+    padding: 1px;
+}
+.card img{
+    max-width: 100%;    
+}
+.card p{
+    font-size: medium;
+    text-align: center;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header ul {
+    display: flex;
+    gap:4rem;
+    background-color: #b4b4b469;
+    padding: 15px;
+    border-radius: 20px;    
+}
+header ul a{
+    color: black;
+    font-weight: bold;
+    text-decoration: solid;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.map{
+    margin-top: 2rem;
+    padding-top: 10px;
+    gap: 30px;
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+}
+.map iframe{
+    align-self: center;
+    padding: 3px;
+}
+
+.sum{
+    text-align: center;
+    width: 25%;
+    color: #fff;
+}
+
+
+main p{
+    font-size: larger;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    color: #fff;
+    background-color: rgb(31, 31, 31);
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}

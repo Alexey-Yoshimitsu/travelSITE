@@ -1,0 +1,1 @@
+console.log("%cНу и как там в египте?", "color: yellow; font-style: italic; font-size: 50px;");
